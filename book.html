@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description"
+        content="Book a flight with our website. Get good prices in minimum time with great convinience.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Book a Flight</title>
+    <link rel="icon" href="imgs/plane-fly.svg">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="book.css">
+    <link rel="stylesheet" href="util.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+    <div class="scrollup">
+        <i class="uil uil-angle-up"></i>
+    </div>
+
+    <nav class="navbarr">
+        <div class="max">
+            <div class="logo"><a href="#">Web Enabled<span> Flight Networks</span></a></div>
+            <ul class="menu">
+                <li class="nav_h"><a href="index.html">Home</a></li>
+                <!-- <li class="nav_a"><a href="#about">About</a></li> -->
+                <li class="nav_c"><a href="contact.html">Contact</a></li>
+                <li class="log nav_l"><a href="signup.html">SignUp</a></li>
+                <li class="log nav_l"><a href="sign.html">Log In</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="book" id="book">
+        <div class="max">
+            <h2 class="title p-t-100">Book your Flight...</h2>
+            <div class="cont">
+                <!-- <div class="text p-b-20">
+                    Book
+                </div> -->
+                <div class="col left">
+                    <form action="#" name="bookticket" method="get">
+                        <div class="fields">
+                            <div class="field select">
+
+                                <!-- <label for="from">Source:</label><br> -->
+                                <select required name="from">
+                                    <option value="">Select Source...</option>
+                                    <option value="Paris">Paris</option>
+                                    <option value="New Delhi">New Delhi</option>
+                                    <option value="Cambodia">Cambodia</option>
+                                    <option value="Maldives">Maldives</option>
+                                    <option value="Hong Kong">Hong Kong</option>
+                                    <option value="New York City">New York City</option>
+                                    <option value="Los Angeles">Los Angeles</option>
+                                    <option value="Tokyo">Tokyo</option>
+                                    <option value="Kyoto">Kyoto</option>
+                                    <option value="Seoul">Seoul</option>
+                                    <option value="London">London</option>
+                                    <option value="Belgium">Belgium</option>
+                                    <option value="Dubai">Dubai</option>
+                                    <option value="Shanghai">Shanghai</option>
+                                    <option value="Rome">Rome</option>
+                                    <option value="Bali">Bali</option>
+                                    <option value="Laos">Laos</option>
+                                    <option value="Sydney">Sydney</option>
+                                    <option value="Myanmar">Myanmar</option>
+                                    <option value="Singapore">Singapore</option>
+                                    <option value="Thailand">Thailand</option>
+                                    <option value="Vietnam">Vietnam</option>
+                                </select>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="fields">
+                            <div class="field selectdiv">
+                                <!-- <label for="to">Destination:</label><br> -->
+                                <select required name="from">
+                                    <option value="">Select Destination...</option>
+                                    <option value="Paris">Paris</option>
+                                    <option value="New Delhi">New Delhi</option>
+                                    <option value="Cambodia">Cambodia</option>
+                                    <option value="Maldives">Maldives</option>
+                                    <option value="Hong Kong">Hong Kong</option>
+                                    <option value="New York City">New York City</option>
+                                    <option value="Los Angeles">Los Angeles</option>
+                                    <option value="Tokyo">Tokyo</option>
+                                    <option value="Kyoto">Kyoto</option>
+                                    <option value="Seoul">Seoul</option>
+                                    <option value="London">London</option>
+                                    <option value="Belgium">Belgium</option>
+                                    <option value="Dubai">Dubai</option>
+                                    <option value="Shanghai">Shanghai</option>
+                                    <option value="Rome">Rome</option>
+                                    <option value="Bali">Bali</option>
+                                    <option value="Laos">Laos</option>
+                                    <option value="Sydney">Sydney</option>
+                                    <option value="Myanmar">Myanmar</option>
+                                    <option value="Singapore">Singapore</option>
+                                    <option value="Thailand">Thailand</option>
+                                    <option value="Vietnam">Vietnam</option>
+                                </select>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="fields">
+                            <div class="field trip">
+                                <select name="from">
+                                    <option value="Round" selected>Round Trip</option>
+                                    <option value="One-way">One-Way Trip</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="fields">
+                            <div class="field date_l">
+                                <label for="departure" class="dl">Departure</label><br>
+                                <input name="deparure" type="date" class="date" id="departure" placeholder="Departure"
+                                    required>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="fields">
+                            <div class="field data_l">
+                                <label for="return" class="dl">Return </label><br>
+                                <input name="return" type="date" class="date" id="return" placeholder="Return" required>
+                            </div>
+                        </div>
+                        <br>
+                        
+                    </form>
+                    <div class="submit">
+                        <!-- <a href="result.html" class="submit">Book Flight</a> -->
+                        <button type="submit" class="submit" onClick="location.href='result.html'">Book Flight</button>
+                    </div>
+                </div>
+                <div class="col right">
+                    <img src="imgs/travel.svg" alt="travel_illus">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer_bg">
+            <div class="max">
+                <div class="fcont">
+                    <div class="col left">
+                        <span class="footer_subtitle" style="color: #e6a33d;">Web Enabled</span>
+                        <h1 class="footer_title" style="color: rgb(20, 139, 139);">Flight Networks</h1>
+                        <div class="footer_socials">
+                            <a href="https://www.instagram.com/guptaushma/" target="blank" class="footer_social">
+                                <i class="uil uil-instagram"></i>
+                            </a>
+
+                            <a href="https://www.linkedin.com/in/guptaushma/" target="blank" class="footer_social">
+                                <i class="uil uil-linkedin-alt"></i>
+                            </a>
+
+                            <a href="https://twitter.com/GuptaUshma" target="blank" class="footer_social">
+                                <i class="uil uil-twitter-alt"></i>
+                            </a>
+
+                        </div>
+                    </div>
+
+                    <div class="col right">
+                        <ul class="footer_links" ">
+                            <li>
+                                <a href="book.html" class="footer_link">Book a Flight</a>
+                            </li>
+                            <li>
+                                <a href="index.html" class="footer_link">About Us</a>
+                            </li>
+
+                        </ul>
+                        <ul class="footer_links">
+                            <li>
+                                <a href="contact.html" class="footer_link">Contact Us</a>
+                            </li>
+                            <li>
+                                <a href="sign.html" class="footer_link">LogIn</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <p class="footer_copy">&#169; WFN. All rights reserved</p>
+        </div>
+    </footer>
+
+    <script src="book.js"></script>
+</body>
+
+</html>

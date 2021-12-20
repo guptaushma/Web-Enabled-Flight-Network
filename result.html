@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>WFN: Flight</title>
+    <link rel="icon" href="imgs/plane-fly.svg">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="result.css">
+    <link rel="stylesheet" href="util.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+    <div class="scrollup">
+        <i class="uil uil-angle-up"></i>
+    </div>
+
+    <nav class="navbar">
+        <div class="max">
+            <div class="logo"><a href="#">Web Enabled<span> Flight Networks</span></a></div>
+            <ul class="menu">
+                <li class="nav_h"><a href="index.html">Home</a></li>
+                <li class="nav_a"><a href="book.html">Book</a></li>
+                <li class="nav_c"><a href="contact.html">Contact</a></li>
+                <li class="log nav_l"><a href="index.html">LogOut</a></li>
+                <!-- <li class="log nav_l"><a href="sign.html">Log In</a></li> -->
+            </ul>
+        </div>
+    </nav>
+
+    <section class="home" id="home">
+        <div class="max">
+            <div class="cont">
+                <div class="one">Paris to</div>
+                <div class="two"><span class="typing"></span></div>
+            </div>
+            <div class="sc">
+                <a href="#flights"><i class="uil uil-mouse-alt"></i>Scroll down</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="flights" id="flights">
+        <div class="max">
+            <h2 class="title">Available Flights</h2>
+            <div class="fields">
+                <div class="field map">
+                    <img src="imgs/paris_nyc.png" alt="map_paris_to_nyc">
+                </div>
+            </div>
+            <h3 class="ttitle">Paris <span class="air"> BVA </span><i class="uil uil-arrow-right"></i> New York
+                City<span class="air"> JFK </span></h3>
+            <div class="acont">
+
+                <div class="col left">
+                    <h4 class="ttitle">Your Ideal Flight Details</h4>
+                    <div class="first">
+                        <p class="airloc">Beauvis BVA <i class="uil uil-arrow-right"></i> Edinburgh EDI</p>
+                        <p class="airlogo"><img src="imgs/ryanair.png" alt="ryanair_logo"> Ryanair </p>
+                        <p><i class="uil uil-clock"></i><span class="airdate"> 25<sup>th</sup> December '21 3:00
+                                PM</span></p>
+                    </div>
+                    <br>
+                    <div class="first">
+                        <p class="airloc">Edinburgh EDI <i class="uil uil-arrow-right"></i> New York City JFK</p>
+                        <p class="airlogo"><img src="imgs/delta.png" alt="ryanair_logo"> Delta </p>
+                        <p><i class="uil uil-clock"></i></i><span class="airdate"> 25<sup>th</sup> December '21 5:00
+                                PM</span></p>
+                    </div>
+                </div>
+
+                <div class="col right">
+                    <br><br><br><br>
+                    <!-- <h4 class="ttitle">Other Available Flights</h4> -->
+                    <div class="two box_red">
+                        <p><i class="uil uil-times"></i>No Direct Flights found.</p>
+                    </div>
+                    <br>
+                    <div class="two box_green">
+                        <p><i class="uil uil-check"></i>13 routes with 1 stop found.</p>
+                    </div>
+                    <br><br>
+                    <form action="#" name="flight">
+                        <div class="fields">
+                            <div class="field select">
+                                <select required name="from">
+                                    <option value="Edinburgh"> via Edinburgh <span class="duration">9h 15m</span>
+                                    </option>
+                                    <option value="Dubin"> via Dubin <span class="duration">9h 25m</span></option>
+                                    <option value="Manchester"> via Manchester <span class="duration">10h 00m</span>
+                                    </option>
+                                    <option value="Madrid"> via Madrid <span class="duration">10h 20m</span></option>
+                                    <option value="Barcelona"> via Barcelona <span class="duration">10h 40m</span>
+                                    </option>
+                                    <option value="Lisbon"> via Lisbon <span class="duration">10h 50m</span></option>
+                                    <option value="Prague"> via Prague <span class="duration">11h 05m</span></option>
+                                    <option value="Vienna"> via Vienna <span class="duration">11h 40m</span></option>
+                                    <option value="Rome"> via Rome <span class="duration">11h 45m</span></option>
+                                    <option value="Helsinki"> via Helsinki <span class="duration">11h 50m</span>
+                                    </option>
+                                    <option value="Belgrade"> via Belgrade <span class="duration">12h 30m</span>
+                                    </option>
+                                    <option value="Kyiv"> via Kyiv <span class="duration">13h 00m</span></option>
+                                    <option value="Amman"> via Amman <span class="duration">17h 25m</span></option>
+                                </select>
+                            </div>
+                        </div>
+                        <br>
+                        
+                    </form>
+                    <div class="submit">
+                        <!-- <button type="submit" class="submit"><a href="index.html" target="blank">Book Now</a></button> -->
+                        <button type="submit" class="submit" onClick="location.href= 'index.html'">Book Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer_bg">
+            <div class="max">
+                <div class="fcont">
+                    <div class="col left">
+                        <span class="footer_subtitle" style="color: #e6a33d;">Web Enabled</span>
+                        <h1 class="footer_title" style="color: #89ade4;">Flight Networks</h1>
+                        <div class="footer_socials">
+                            <a href="https://www.instagram.com/guptaushma/" target="blank" class="footer_social">
+                                <i class="uil uil-instagram"></i>
+                            </a>
+
+                            <a href="https://www.linkedin.com/in/guptaushma/" target="blank" class="footer_social">
+                                <i class="uil uil-linkedin-alt"></i>
+                            </a>
+
+                            <a href="https://twitter.com/GuptaUshma" target="blank" class="footer_social">
+                                <i class="uil uil-twitter-alt"></i>
+                            </a>
+
+                        </div>
+                    </div>
+
+                    <div class="col right">
+                        <ul class="footer_links" ">
+                            <li>
+                                <a href=" book.html" class="footer_link">Book a Flight</a>
+                            </li>
+                            <li>
+                                <a href="main.html" class="footer_link">About Us</a>
+                            </li>
+
+                        </ul>
+                        <ul class="footer_links">
+                            <li>
+                                <a href="contact.html" class="footer_link">Contact Us</a>
+                            </li>
+                            <li>
+                                <a href="sign.html" class="footer_link">LogIn</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <p class="footer_copy">&#169; WFN. All rights reserved</p>
+        </div>
+    </footer>
+
+    <script src="result.js"></script>
+</body>
+
+</html>
